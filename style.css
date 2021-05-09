@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+    right: auto;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.static {
+    position: static;
+}
+
+.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.clear {
+    clear: both;
+}
